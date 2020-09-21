@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webtech WebCoffee</title>
+    <link rel="stylesheet" href="../../../vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <div style="position: relative;">
+            <img src="header-coffee1.jpg" alt="" class="paralax" style="width: 100%;">
+            <div style="position: absolute; top: 50%; width: 100%;">
+                <h1 class="display-3" id="home">Wetech WebCoffees</h1>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar webnavbar sticky-top navbar-dark" style="background-color:rgba(94, 48, 16, 0.9);">
+        
+        <div class="aa">
+            <ul class="navbar-nav webnavbar">
+                <li class="nav-item">
+                    <a href="index.html#roasting">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#roasting">WebRoasting</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#grinding">WebGrinding</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#brewing">WebBrewing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#drinks">WebDrinks</a>
+                </li>
+                <li class="nav-item">
+                <a href="index.html#survey">WebCoffee Survey</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="navbar-brand" style="color: rgba(255, 248, 220, .5)">Webtech WebCoffee</a>
+    </nav>
+    <div class="jumbotron claro jumbotron-fluid" id="survey">
+        <div class="container">
+            <section>
+                <h3 class="display-4" id="boiling">Boiling</h3>
+                <div>
+                    <figure style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+                        <img src="boiling-coffee.jpg" alt="">
+                    </figure>
+                </div>
+                
+                <p class="lead">Boiling, or decoction, was the main method used for brewing coffee until the 1930s and is still used in some Nordic and Middle Eastern countries. The aromatic oils in coffee are released at 96 °C (205 °F), which is just below boiling, while the bitter acids are released when the water has reached boiling point.
+                </p>
+                <p class="lead">The simplest method is to put the ground coffee in a cup, pour hot water over it and let cool while the grounds sink to the bottom. This is a traditional method for making a cup of coffee that is still used in parts of Indonesia. This method, known as "mud coffee" in the Middle East owing to an extremely fine grind that results in a mud-like sludge at the bottom of the cup, allows for extremely simple preparation, but drinkers then have to be careful if they want to avoid drinking grounds either from this layer or floating at the surface of the coffee, which can be avoided by dribbling cold water onto the "floaters" from the back of a spoon. If the coffee beans are not ground finely enough, the grounds do not sink.
+                </p>
+                <p class="lead">"Cowboy coffee" is made by heating coarse grounds with water in a pot, letting the grounds settle and pouring off the liquid to drink, sometimes filtering it to remove fine grounds. While the name suggests that this method was used by cowboys, presumably on the trail around a campfire, it is used by others; some people prefer this method.
+                </p>
+                <p class="lead">The above methods are sometimes used with hot milk instead of water.
+                </p>
+                <p class="lead">Turkish coffee (aka Arabic coffee, etc.), a very early method of making coffee, is used in the Middle East, North Africa, East Africa, Turkey, Greece, the Balkans, and Russia. Very finely ground coffee, optionally sugar, and water are placed in a narrow-topped pot, called an cezve (Turkish), kanaka (Egyptian), briki (Greek), džezva (Štokavian) or turka (Russian) and brought to the boil then immediately removed from the heat. It may be very briefly brought to the boil two or three times. Turkish coffee is sometimes flavored with cardamom, particularly in Arab countries. The resulting strong coffee, with foam on the top and a thick layer of grounds at the bottom, is drunk from small cups.
+                </p>
+                
+            </section>
+        </div>
+    </div>
+    <footer class="page-footer font-small" style="background-color: rgb(94, 48, 16);">
+        
+        <div class="footer-copyright text-center py-3" style="color: cornsilk;">© 2020 Copyright:
+            <spam style="color: cornsilk;">Webtech</spam>
+        </div>
+    </footer>   
+</body>
+<script>
+    var image = document.getElementsByClassName('paralax');
+    new simpleParallax(image);
+</script>

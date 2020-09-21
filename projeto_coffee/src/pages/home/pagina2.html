@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webtech WebCoffee</title>
+    <link rel="stylesheet" href="../../../vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <div style="position: relative;">
+            <img src="header-coffee1.jpg" alt="" class="paralax" style="width: 100%;">
+            <div style="position: absolute; top: 50%; width: 100%;">
+                <h1 class="display-3" id="home">Wetech WebCoffees</h1>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar webnavbar sticky-top navbar-dark" style="background-color:rgba(94, 48, 16, 0.9);">
+        
+        <div class="aa">
+            <ul class="navbar-nav webnavbar">
+                <li class="nav-item">
+                    <a href="index.html#roasting">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#roasting">WebRoasting</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#grinding">WebGrinding</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#brewing">WebBrewing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#drinks">WebDrinks</a>
+                </li>
+                <li class="nav-item">
+                <a href="index.html#survey">WebCoffee Survey</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="navbar-brand" style="color: rgba(255, 248, 220, .5)">Webtech WebCoffee</a>
+    </nav>
+    <div class="jumbotron claro jumbotron-fluid" id="survey">
+        <div class="container">
+        <h3 class="display-4" id="steeping">Steeping</h3>
+            <section class="row" style="display: flex;">
+                <div class="col-6" style="padding-top: 5%;">
+                    <img src="steeping-coffee.jpg" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                    <p class="lead">A cafetière, or French press, is a tall, narrow cylinder with a plunger that includes a metal or nylon fine mesh filter. The grounds are placed in the cylinder, and off-the- boil water is then poured into it. The coffee and hot water are left in the cylinder for a few minutes (typically 4–7 minutes) and then the plunger is gently pushed down, leaving the filter immediately above the grounds, allowing the coffee to be poured out while the filter retains the grounds. Depending on the type of filter, it is important to pay attention to the grind of the coffee beans, though a rather coarse grind is almost always called for.
+                    </p>
+                    <p class="lead">Malaysian and some Caribbean and South American styles of coffee are often brewed using a "sock," which is actually a simple muslin bag, shaped like a filter, into which coffee is loaded, then steeped in hot water. This method is especially suitable for use with local-brew coffees in Malaysia, primarily of the varieties Robusta and Liberica which are often strong-flavored, allowing the ground coffee in the sock to be reused.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="page-footer font-small" style="background-color: rgb(94, 48, 16);">
+        
+        <div class="footer-copyright text-center py-3" style="color: cornsilk;">© 2020 Copyright:
+            <spam style="color: cornsilk;">Webtech</spam>
+        </div>
+    </footer>   
+</body>
+<script>
+    var image = document.getElementsByClassName('paralax');
+    new simpleParallax(image);
+</script>

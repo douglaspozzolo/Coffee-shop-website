@@ -1,0 +1,90 @@
+.jumbotron{
+    margin-bottom: 0;
+}
+.webnavbar {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 0;
+}
+.webnavbar .aa {
+   display: flex;
+}
+.aa a{
+    text-decoration: none;
+    color:cornsilk;
+    margin-right: 10px;
+}
+.aa a:hover{
+    color: snow;
+}
+header h1{
+    text-align: center;
+    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:rgb(255, 248, 220);
+    }
+.jumbotron h1{
+    color: saddlebrown;
+    font-weight: bolder;
+}
+.lead{
+    text-align: justify;
+}
+.claro p a{
+    font-weight: bold;
+    color: saddlebrown;
+}
+.claro li, li a{
+    color: #212529;
+}
+.claro{
+    background-color: cornsilk;
+}
+.escuro{
+    background-image: url(coffee-bg-escuro.jpg);
+    background-size:cover;
+}
+.claro p, li, th, td, label{
+    color:saddlebrown;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.escuro p, li, th, td{
+    color:snow;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.escuro th, td{
+    text-align: center;
+}
+.escuro h1{
+    color: cornsilk;
+}
+.form-check-input{
+    margin-top: 11px;
+}
+table{
+    background-color: rgba(43, 31, 20, 0.6);
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .botao:hover .image {
+    opacity: 0.3;
+  }
+  
+  .botao:hover .middle {
+    opacity: 1;
+  }
+  .text {
+    color: cornsilk;
+    background-color:rgba(94, 48, 16, 0.9);
+    font-size: 16px;
+    padding: 10px 26px;
+  }
